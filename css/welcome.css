@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'aileron Light';
+  src: url('Aileron-Light.woff') format('woff');
+}@font-face {
+  font-family: 'Agency';
+  src: url('AGENCYR.woff') format('woff');
+}
+
+@font-face {
+  font-family: '源暎ゴシックP Light';
+  src: url('GenEi-subset.woff') format('woff');
+}@font-face {
+  font-family: '源暎ゴシックP';
+  src: url('GenEiGothicN-Regular2.woff') format('woff');
+}
+html,body{
+	width: 100%;
+	margin: 0;
+	font-family: "Agency","源暎ゴシックP";
+	color: #eeeeee;
+	background: #c1c1c1;
+}
+.backpic{
+position: absolute;
+    height: 800px;
+}
+#title {
+    position: relative;
+    width: 25%;
+    left: 75%;
+    text-align:left;
+    font-size: 52px;
+    letter-spacing: 2px;
+    background: #444444;
+}
+#subtitle {
+    position: relative;
+    width: 25%;
+    left: 75%;
+    font-size: 22px;
+    background: #444444;
+}#title2 {
+    position: relative;
+    width: 25%;
+    left: 75%;
+    text-align:left;
+    font-size: 52px;
+    letter-spacing: 2px;
+    background: #444444;
+}
+#subtitle2 {
+    position: relative;
+    width: 25%;
+    left: 75%;
+    font-size: 22px;
+    background: #444444;
+}
+#announce{
+    position: relative;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    color: #880000;
+    font-size: 14px;
+    width: 40%;
+    left: 50%;
+    border: 2px solid;
+}#sentence{
+    position: relative;
+    letter-spacing: 2px;
+    color: #444444;
+    font-size: 14px;
+    margin-top: 30px;
+    width: 40%;
+    left: 50%;
+}
+.menu,.menubar,#footer{
+    display: none;
+}
+#buttonarea{
+    width: 50%;
+    left: 50%;
+    position: relative;
+}
+#button{
+    width: 40%;
+    margin-left: 5%;
+    color: #444444;
+    margin-top: 5px;
+    float: left;
+    position: relative;
+    padding-top: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+}

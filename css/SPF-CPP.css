@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'aileron Light';
+  src: url('Aileron-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: '源暎ゴシックP Light';
+  src: url('GenEi-subset.woff') format('woff');
+}
+html,body{
+	margin: 0;
+}
+#title {
+    position: absolute;
+    color: #eeeeee;
+    font-family: "Aileron Light";
+    font-size: 16px;
+    top: 0px;
+    background: #999999;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: left;
+    letter-spacing: ;
+    letter-spacing: 3px;
+    width: 95%;
+    padding-left: 5%;
+}
+.menubar {
+    list-style-type: none;
+    letter-spacing: 2px;
+    text-align: right;
+    position: fixed;
+    display: none;
+	opacity: 0;
+    margin-top: 0px;
+    z-index: 6;
+	color: #111111;
+    width: 30%;
+    margin-left: 100%;
+    padding-left: 10%;
+    padding-right: 5%;
+    height: 800px;
+    background: rgba(200,200,200,0.8);
+    top: 0px;
+    padding-top: 70px;
+}
+.menu{
+	position: fixed;
+	top: 0;
+	z-index: 5;
+	display: none;
+	width: 20%;
+	left: 80%;
+}
+.open{
+	position: absolute;
+	top: 510px;
+	width: 10%;
+	left:45%;
+	cursor: pointer;
+}
+#date {
+    position: absolute;    top: 430px;    left: 10%;    width: 70%;    text-align: left;
+    font-family: "aileron Light";    font-size: 14px;    letter-spacing: 2px;
+      color: #eeeeee;
+}#place {
+    position: absolute;    top: 460px;    left: 10%;    width: 70%;    text-align: left;
+    font-family: "aileron Light";    font-size: 12px;    letter-spacing: 2px;
+      color: #eeeeee;
+}#bars {
+    position: absolute;
+    top: 380px;
+    left: 65%;
+    width: 30%;
+    text-align: right;
+    font-family: "aileron Light";
+    font-size: 18px;
+    width: 30%;
+    width: '';
+	display: none;
+    letter-spacing: 2px;
+    color: #eeeeee;
+}
+
+
+li {
+    float: left;
+    position: relative;
+	text-align: center;    list-style-type: none;
+    padding-left: 1%;
+    padding-right: 1%;
+ 	padding-top: 3px;
+	border-top: 2px solid #eeeeee;
+    width: 25%;
+}
+.back{
+	display: none;
+}
+.backM{
+
+    position: absolute;
+    margin: 0;
+    top:30px;
+    left: 5%;
+    width: 90%;
+}
+
+#boxsentence {
+    position: absolute;
+    width: 45%;
+    left: 50%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    top: 0px;
+    color: white;
+    text-align: right;
+    padding-right: 5%;
+    background: #222222;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+
+#boxS{
+	display: block;
+}
+#caption, #photo,#data {
+    font-family: "aileron Light","源暎ゴシックP Light";
+    color: #222222;
+    position: relative;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+    font-size: 11px;
+    display: block;
+    opacity: 1;
+    : ;
+    top: 100px;
+    left: 10%;
+    width: 80%;
+    letter-spacing: 2px;
+}
+.pics {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: left;
+    width: 50%;
+    padding-right: 10%;
+}
+
+#datas{
+	width: 100%;
+}
+#photo{
+	padding-bottom: 50px;
+}
+#title2 {
+    font-size: 24px;
+    border-bottom: 2px solid white;
+    margin-bottom: 5px;
+	
+    padding-top: 150px;
+    margin-left: 10%;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+#sentence {
+    font-size: 20px;
+}
+#sentence2{
+	padding-bottom: 10px;
+}
+td {
+    border-bottom: 1px solid #888888;
+    width: 50%;
+}
+input,textarea,select{
+    width: 100%;
+	font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#sform {
+    width: 100%;
+    font-size: 14px;
+}
+
+.check{
+	width: 10%;
+	left: 0;
+}
+
+#back{
+	font-size: 17px;
+	color: white;
+	cursor: pointer;
+	width: 10%;
+	position:absolute;
+	margin-top: 170px;
+	padding: 3px;
+	background: #999999;
+}

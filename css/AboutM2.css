@@ -1,0 +1,707 @@
+@font-face {
+  font-family: 'aileron Light';
+  src: url('Aileron-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: '源暎ゴシックP Light';
+  src: url('GenEi-subset.woff') format('woff');
+}
+html,body{
+	width: 100%;
+	margin: 0;
+	font-family: "aileron Light","源暎ゴシックP Light";
+	color: #eeeeee;
+	background: #222222;
+}
+.topP{
+    width: 70%;
+    position:relative;
+    left: 15%;
+    top: 160px;
+	z-index: 2;
+}
+.topPH {
+    width: 70%;
+	left: 0%;
+    position: absolute;
+    z-index: 2;
+}
+.topP2{
+	display: none;
+}
+.logo{
+	display: none;
+}
+.menu{
+	position: fixed;
+	top: 0;
+	z-index: 5;
+	display: block;
+	width: 20%;
+	left: 80%;
+}
+.open{
+	position: absolute;
+	top: 510px;
+	width: 10%;
+	left:45%;
+	cursor: pointer;
+}
+#title {
+    font-size: 26px;
+    position: absolute;
+    padding-left: 5%;
+    padding-right: 3%;
+    width: 50%;
+	padding-top: 10px;
+    text-align: left;
+	font-size: 16px;
+    letter-spacing: 3px;
+    top: 20px;
+	z-index:3;
+   
+}
+
+#since{
+	font-size: 16px;
+	position: relative;
+	padding-left: 5%;
+    padding-right: 3%;
+	display: none;
+    width: 100%;
+	padding-bottom: 10px;
+    text-align: left;
+	color: white;
+	background: rgba(50,50,50,0.5);
+	letter-spacing: 2px;
+	top: 410px;
+	z-index:3;
+}
+#bar{
+	height: 4px;
+	top: 300px;
+	width: 100%;
+	position: absolute;
+	display: none;
+	background: black;
+	z-index: 1;
+}
+.menubar {
+    list-style-type: none;
+    letter-spacing: 2px;
+    text-align: right;
+    position: fixed;
+    display: none;
+	opacity: 0;
+    margin-top: 0px;
+    z-index: 6;
+	color: #111111;
+    width: 30%;
+    margin-left: 100%;
+    padding-left: 10%;
+    padding-right: 5%;
+    height: 800px;
+    background: rgba(200,200,200,0.8);
+    top: 0px;
+    padding-top: 70px;
+}
+
+#close {
+	position: relative;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: "aileron Light";
+}
+
+li{
+  position: relative;
+  display: inline-block;
+	width: 100%;
+	padding-bottom: 4px;
+	margin-bottom: 15px;
+  text-decoration: none;
+}
+
+li::after {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform .3s;
+}
+li:hover::after {
+  transform-origin: left top;
+  transform: scale(1, 1);
+
+}
+.activate{
+	border-bottom: 2px solid black;
+}
+#area,#areab,#areaa{
+	left: -5%;
+	width: 90%;
+	color: #eeeeee;
+	position: relative;
+	opacity: 0;
+}
+#confrence, #newSPF {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    opacity: 0;
+    display: none;
+    margin-top: 80px;
+    height: 800px;
+}
+#mtop {
+    position: relative;
+    left: 5%;
+    top: 180px;
+    text-align: center;
+    width: 90%;
+}
+.ps {
+    background: #eeeeee;
+    color: black;
+}
+
+#areatitle {
+    color: #222222;
+    position: relative;
+    top: 100px;
+    left: 76%;
+    width: 0%;
+    height: 0px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-left: 2px solid #eeeeee;
+    border-top: 2px solid #eeeeee;
+}
+#newpage,#newpage2,#newpage3,#newpage4{
+	opacity: 0;
+	width: 99%;
+}
+#newpage2{
+	position: relative;
+	top: 150px;
+}#newpage4{
+	position: relative;
+	top: 200px;
+}
+#newpage3{
+	position: relative;
+	top: 900px;
+}
+#mainsentence{
+	position: relative;
+	letter-spacing: 2px;
+	font-size: 12px;
+	top: 160px;
+	letter-spacing: 2px;
+	color:#eeeeee;
+	width: 90%;
+	left: 5%;
+    line-height: 1.8;
+}
+#pictureS{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 11px;
+}
+.topixpic{
+    width: 100%;
+}
+#schedule {
+    position: relative;
+    color: #eeeeee;
+    font-size: 12px;
+    left: 12%;
+    width: 90%;
+    left: 0;
+    opacity: 0;
+    margin-top: 270px;
+}
+#schedule2 {
+    display: block;
+    position: ;
+	color:#eeeeee;
+    position: relative;
+    font-size: 12px;
+    left: 10%;
+    width: 90%;
+}
+
+.month{
+	border-right: 2px solid #eeeeee;
+	padding-right: 5px;
+	margin-top: 10px;
+}
+tr{
+	padding-bottom: 10px;
+}
+td{
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+#back {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 14px;
+    background: #eeeeee;
+    width: 20%;
+    color: black;
+}
+
+#historyone {
+    font-size: 12px;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    top: 180px;
+}
+#historyone a{
+    text-decoration: underline;
+}
+#Htitle {
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    margin-bottom: 15px;
+}
+#Hwritter{
+    font-size: 11px;
+}
+#s1{
+	position: absolute;
+	left: 10%;
+	width: 90%;
+	letter-spacing: 2px;
+	font-size: 11px;
+	top: 160px;
+}
+a{
+	color:#eeeeee;
+	text-decoration: none;
+}
+.menubar a{
+	color:#111111;
+	text-decoration: none;
+}
+#newtable {
+    position: relative;
+    color: white;letter-spacing: 2px;
+    font-size: 12px;
+    left: 5%;
+	width: 90%;
+    top: 200px; 
+} 
+input {
+    position: relative;
+    width: 100%;
+}
+
+#loginarea {
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 150px;
+}
+#check{
+	color: white;
+	position: absolute;
+	top: 180px;
+	text-decoration: none;
+}
+#areaselect {
+    position: absolute;
+	z-index: 4;
+    width: 95%;
+    top: 180px;
+    left: 5%;
+}
+.select1{
+    position: relative;
+    float: left;
+	animation-name: ease2;
+    margin-right: 2%;
+    width: 30%;
+    padding-top: 10px;
+	font-size: 12px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    text-align: center;
+	background: #222222;
+	color:white;
+	cursor: pointer;
+}
+.select1:hover{
+	transition-duration: 500ms;
+	animation-name: ease;
+	border: white 1px solid;
+	background: #eeeeee;
+	color:black;
+}
+.select1 #twitter:hover{
+	background: skyblue;
+	color:black;
+}
+.select1:hover::after{
+	transition-duration: 500ms;
+	animation-name: ease;
+	border: white 1px solid;
+	background: #222222;
+	color:white;
+}
+@keyframes ease{
+	from{
+		border: white 1px solid;
+		background:#222222;
+		color:white;
+	}to{
+		border: white 1px solid;
+		background:#eeeeee;
+		color:black;
+	}
+
+}
+#Lbox{
+    position: relative;
+    top: 180px;
+    left: 5%;
+    width: 90%;
+    padding-left: 1%;
+    padding-bottom: 0.5%;
+	margin-bottom: 13px;
+    float: left;
+    margin-right: 5%;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+#month {
+    position: relative;
+    top: 0px;
+    left: ;
+    left: 20%;
+    width: ;
+    width: 70%;
+    margin-bottom: 15px;
+    border-left: 3px solid white;
+}
+#rist{
+    margin-left: -60px;
+    font-size: 32px;
+    float: left;
+}
+#risttitle {
+    font-size: 19px;
+	letter-spacing: 2px;
+    padding-left: 3%;
+}
+#ristsentence {
+    font-size: 11px;
+    margin-top: 5px;
+    padding-left: 3%;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+#newbox {
+    position: relative;
+    color: #eeeeee;
+    height: auto;
+    width: 90%;
+    border-left: 2px solid #eeeeee;
+    margin-bottom: ;
+    left: 5%;
+    padding-left: 3%;
+    margin-bottom: 15px;
+    top: 150px;
+}
+
+.boxP{
+	margin-top: 10px;
+	width: 100%;
+}
+
+#date {
+    font-size: 11px;
+}
+#boxtitle {
+    font-size: 18px;
+    margin-top: 5px;
+}
+#sentence {
+	margin-top: 5px;
+    font-size: 12px;
+	letter-spacing: 2px;
+}#box2 #date {
+    font-size: 11px;
+}
+#box2 #boxtitle {
+    font-size: 18px;
+    margin-top: 5px;
+}
+#box2 #sentence {
+	margin-top: 5px;
+    font-size: 12px;
+	letter-spacing: 2px;
+}
+.B1{
+	left: 5%;
+}.B2{
+	left: 5%;
+}.B3{
+	left: 5%;
+}
+#box2 {
+    position: relative;
+    height: auto;
+    top: 200px;
+    width: 90%;
+    left: 5%;
+    margin-bottom: 40px;
+    border-left: 2px solid #eeeeee;
+    padding-left: 3%;
+}
+#data{
+	position: absolute;
+	top: 180px;
+	width: 100%;
+	
+	font-size: 9px;
+	text-align: center;
+}
+#data th{
+	border-bottom: 1px solid white;
+}
+#data td{
+	border-bottom: 1px solid white;
+}
+#data a{
+	color: white;
+	text-decoration: none;
+}
+#footer {
+    display: block;
+    opacity: 1;
+    position: absolute;
+    font-family: "aileron Light","源暎ゴシックP Light";
+    color: white;
+    font-size: 14px;
+   
+    margin-top: 250px;
+    width: 100%;
+    height: 750px;
+    background: #444444;
+}
+#footer #title {
+    position: relative;
+}
+#title2 {
+    position: relative;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    left: 20%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+#footer #names {
+    font-size: 9px;
+    color: #c1cad3;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#sentencearea{
+    width: 60%;
+    position: relative;
+    color: #eeeeee;
+    margin-top: 10px;
+    font-size: 12px;
+    left: 20%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#sentencearea2{
+    width: 80%;
+    position: relative;
+    color: #eeeeee;
+    margin-top: 10px;
+    font-size: 12px;
+    left: 10%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#share{
+    margin-top: 40px;
+}
+#social {
+    position: relative;
+   margin-top: 10px;
+    left: 23%;
+    width: 50%;
+}
+.twitter {
+    position: relative;
+    width: 22%;
+    top: 5px;
+    left: 0%;
+}
+
+.line {
+    position: relative;
+    width: 18%;
+
+    left: 20%;
+}
+
+
+.facebook {
+    position: relative;
+    width: 18%;
+    left: 45%;
+}
+#footer .twitter {
+    position: relative;
+    width: 22%;
+    top: 5px;
+    left: 5%;
+}
+#footer .facebook {
+    position: relative;
+    width: 18%;
+    left: 55%;
+}
+#menus {
+    position: relative;
+    margin-top: 20px;
+    color: #eeeeee;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+}
+
+#menus tr {
+    width: 50%;
+    letter-spacing: 3px;
+    left: 25%;
+    position: relative;
+}
+#loginto{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 25px;
+}
+#for {
+    padding: 10px;
+    border: 1px solid #eeeeee;
+}
+#directory{
+	display: none;
+	opacity: 0;
+	position: relative;
+	top: 170px;
+	text-align: center;
+	width: 90%;
+	left: 5%;
+}
+.sum {
+    width: 23.5%;
+   
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#caption,#caption3,#photo,#data {
+    font-family: "aileron Light","源暎ゴシックP Light";
+    color: #222222;
+    position: relative;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+    font-size: 11px;
+    display: block;
+    opacity: 1;
+    : ;
+    top: 100px;
+    left: 10%;
+    width: 80%;
+    letter-spacing: 2px;
+}
+#caption{
+	display: none;
+	opacity: 0;
+}
+.pics{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+}
+.pics2{
+	display: none;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 100%;
+}
+#datas{
+	width: 100%;
+}
+#photo{
+	padding-bottom: 50px;
+}
+
+#sentence3 {
+    font-size: 20px;
+}
+#sentence2{
+	padding-bottom: 10px;
+}
+td {
+    border-bottom: 1px solid #888888;
+    width: 50%;
+}
+input,textarea,select{
+    width: 100%;
+	font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#sform {
+    width: 100%;
+    font-size: 14px;
+}
+
+.check{
+	width: 10%;
+	left: 0;
+}
+
+#back{
+	font-size: 13px;
+	letter-spacing: 2px;
+	color: white;
+	cursor: pointer;
+	width: 40%;
+	margin-top: 20px;
+	padding: 3px;
+	background: #999999;
+}

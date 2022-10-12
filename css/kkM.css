@@ -1,0 +1,399 @@
+@font-face {
+  font-family: 'aileron Light';
+  src: url('Aileron-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: '源暎ゴシックP Light';
+  src: url('GenEi-subset.woff') format('woff');
+}
+
+@font-face {
+  font-family: '源ノ明朝 Light';
+  src: url('SourceHanSerif-Light2.woff') format('woff');
+}
+body{
+    margin: 0;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#titlew {
+    position: absolute;
+    color: #222222;
+    font-family: 'Bellefair',"源ノ明朝 Light";
+    font-size: 24px;
+    top: 30px;
+    text-align: right;
+    letter-spacing: ;
+    letter-spacing: 3px;
+    width: 90%;
+    left: 5%;
+}
+.topD{
+    display: none;
+}
+#titleh {
+    position: absolute;
+    color: #222222;
+    font-family: 'Bellefair',"源ノ明朝 Light";
+    font-size: 24px;
+    top: 70px;
+    text-align: right;
+    right: 15px;
+    letter-spacing: ;
+    letter-spacing: 3px;
+    width: 90%;
+    left: 5%;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+
+#names {
+    position: absolute;
+    color: #222222;
+    font-family: 'Bellefair',"源ノ明朝 Light";
+    font-size: 15px;
+    top: 250px;
+    text-align: right;
+    right: 25px;
+    letter-spacing: ;
+    letter-spacing: 3px;
+    width: 90%;
+    left: 5%;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+#place {
+    position: absolute;
+    color: #222222;
+    font-family: 'Bellefair',"源ノ明朝 Light";
+    font-size: 15px;
+    top: 180px;
+    text-align: right;
+    right: 90%;
+    letter-spacing: ;
+    letter-spacing: 3px;
+    left: 5%;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+}
+#date{
+    position: absolute;
+    color: #222222;
+    font-family: 'Bellefair',"源ノ明朝 Light";
+    font-size: 15px;
+    top: 500px;
+    text-align: left;
+    letter-spacing: ;
+    letter-spacing: 3px;
+    width: 85%;
+    left: 15%;
+}
+.topP {
+    width: 60%;
+    position: absolute;
+    top: 90px;
+    left: 20%;
+}
+#share {
+    position: relative;
+    width: 80%;
+    top: 700px;
+    display: block;
+    left: 10%;
+    font-size:12px;
+    z-index: 4;
+    margin-top: 35px;
+     font-family: 'Bellefair',"源ノ明朝 Light";
+}
+#menukk{
+    display: none;
+}
+#about,#access, #photo,#profile,#twitter {
+    font-family: 'Bellefair',"源ノ明朝 Light";
+    color: #222222;
+    position: relative;
+	margin-bottom: 30px;
+    font-size: 11px;
+    display: block;
+    opacity: 1;
+    : ;
+    top: 600px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+#photo{
+	padding-bottom: 50px;
+}
+#title2 {
+    font-size: 24px;
+    border-bottom: 2px solid Gray;
+    margin-bottom: 5px;
+}
+#butt {
+    color: #eeeeee;
+    text-decoration: ;
+    background: #444444;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    left: 35%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.timeline-Widget {
+    max-width: 90%;
+    position: relative;
+    left: 5%;
+    font-size: 14px;
+    font-family: "Bellefair","源ノ明朝 Light";
+    background-color: #fff;
+    border-radius: 5px;
+}
+.SandboxRoot {
+    display: block;
+    background: 0 0;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    font-family: "Bellefair","源ノ明朝 Light";
+    color: #292f33;
+    white-space: normal;
+    white-space: initial;
+}
+
+a{
+    text-decoration: none;
+}
+#sentence {
+    font-size:16px;
+    padding-top: 15px;
+    width: 80%;
+    margin-left: 10%;
+}#sentence2 {
+    font-size: 11px;
+    width: 80%;
+    margin-left: 10%;
+}
+#share {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    margin-top: 35px;
+}
+td {
+    border-bottom: 1px solid #888888;
+    width: 50%;
+    padding-bottom: 5px;
+}
+
+.map {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 0%;
+}
+.line {
+    position: relative;
+    width: 18%;
+
+    left: 20%;
+}
+
+
+.facebook {
+    position: relative;
+    width: 18%;
+    left: 45%;
+}
+#footer {
+    display: block;
+    opacity: 1;
+    position: absolute;
+    font-family: "aileron Light","源暎ゴシックP Light";
+    color: white;
+    font-size: 14px;
+   
+    margin-top: 600px;
+    width: 100%;
+    height: 750px;
+    background: #444444;
+}
+#footer a{
+    color: #eeeeee;
+    text-decoration: none;
+}
+#footer #title {
+     font-size: 26px;
+    position: absolute;
+    padding-left: 5%;
+    padding-right: 3%;
+    width: 50%;
+	padding-top: 10px;
+    text-align: left;
+	font-size: 16px;
+    letter-spacing: 3px;
+    top: 20px;
+	z-index:3;
+    position: relative;
+}
+#footer #title2 {
+    position: relative;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    font-size: 16px;
+    width: 40%;
+    color: #eeeeee;
+    text-align: center;
+    left: 20%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+#title2 {
+    position: relative;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    font-size: 16px;
+    text-align: right;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: #222222;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+
+#footer #names2 {
+    font-size: 9px;
+    color: #c1cad3;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#sentencearea{
+    width: 60%;
+    position: relative;
+    color: #eeeeee;
+    margin-top: 10px;
+    font-size: 12px;
+    left: 20%;
+    letter-spacing: 2px;
+    text-align: center;
+}#sentencearea2{
+    width: 80%;
+    position: relative;
+    color: #eeeeee;
+    margin-top: 10px;
+    font-size: 12px;
+    left: 10%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#social {
+    position: relative;
+   margin-top: 10px;
+    left: 25%;
+    width: 50%;
+}
+.twitter {
+    position: relative;
+    width: 22%;
+    top: 5px;
+    left: 0;
+}
+
+
+#menus {
+    position: relative;
+    margin-top: 20px;
+    color: #eeeeee;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+}
+
+#menus tr {
+    width: 50%;
+    letter-spacing: 3px;
+    left: 25%;
+    position: relative;
+}
+#loginto{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 25px;
+} 
+.N1{
+    left:5%;
+}.N2{
+    left: 90%;
+    top: 140px;
+}
+#name {
+    font-size: 18px;
+    width: 10%;
+    position: absolute;
+}
+#sentence3 {
+    text-align: center;
+    font-size: 13px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    left: ;
+    position: absolute;
+}
+.S31{
+    top: 80px;
+    border-bottom: 1px solid #222222;
+    padding-bottom: 25px;
+}
+.S32{
+    top:170px;
+}
+#access{
+    margin-top:230px;
+}
+li {
+    width: 50%;
+    left: 25%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    position: relative;
+    list-style-type: none;
+}
+img {
+    width: 100%;
+}
+#sentence1c{
+    font-size:19px;
+    padding-top: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+#sentence2c{
+     font-size: 11px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+}
+.font{
+    font-family: serif;
+    margin-top: 10px;
+}

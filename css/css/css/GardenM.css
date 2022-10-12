@@ -1,0 +1,218 @@
+html,body{
+    margin: 0px;
+    font-family: 'ltc-caslon-pro','dnp-shuei-mincho-pr6n';
+    position: relative;
+    color: #222;
+    background: #eee;
+    font-weight: 400;
+}
+/* ALL(footer) */
+
+div#footer {
+    position: relative;
+    background: #333;
+    top: 60px;
+    color: #eee;
+    clear: both;
+}
+div#footer_title {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2px;
+    top: 30px;
+    position: relative;
+    left: 5%;
+    width: 70%;
+}
+div#footer_contents {
+    position: relative;
+    clear: both;
+    height: 70px;
+}
+div#fc_title {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    float: left;
+    position: relative;
+    left: 5%;
+    top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+}
+
+ul.menu_footer {
+    top: 52px;
+    position: relative;
+    z-index: 4;
+}
+.footer_a{
+    list-style: none;
+    text-decoration: none;
+    width: 80%;
+    left: 0;
+    position: relative;
+    letter-spacing: 2px;
+    color: #eee;
+}
+
+.menu_footer li {
+    float: left;
+    position: relative;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.map {
+    color: #eee;
+    text-decoration: none;
+    float: left;
+    width: 80%;
+    left: 10%;
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+div#fc_sentence {
+    position: relative;
+    font-size: 14px;
+}
+
+#footer .sns_pic{
+    width: 12%;
+    float: left;
+    position: relative;
+    left: 30%;
+    top: 80px;
+    margin-right: 18%;
+} 
+div#footer_c {
+    clear: both;
+    margin-top: 100px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    left: 5%;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    padding-bottom: 30px;
+}
+
+/* Garden.php */
+#top_title_PC{
+    display:none;
+}
+#top_title_MB{
+    height: 110vh;
+}
+.top_pic_MB {
+    position: absolute;
+    width: 80%;
+    margin-top: 5vh;
+    left: 10%;
+}
+#ex_name {
+    position: absolute;
+    top: 8vh;
+    left: 15%;
+    color: #eee;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+#title_area {
+    font-size: 16px;
+    letter-spacing: 2px; 
+    position: absolute;
+    left: 50%;
+    margin-top: 520px;
+    text-align: right;
+}
+#title {
+    font-size: 42px;
+}
+#subtitle {
+    position: relative;
+    right: 5%;
+}
+#area_1{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    letter-spacing:2px;
+    margin-bottom: 50px;
+}
+#area_title{
+    margin-bottom: 30px;
+    border-top: 1px solid;
+    font-size: 26px;
+}
+#area_sentence{
+    font-size: 13px;
+}
+#area_sentence2 {
+    margin-top: 50px;
+    font-size: 13px;
+    text-align:left;
+    letter-spacing: 3px;
+    line-height: 2.5;
+} 
+#place{
+    font-size: 24px; 
+}
+#history_box {
+    text-align: left;
+    margin-top: 30px;
+    border-left: 1px solid;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding-left: 5%;
+    width: 95%;
+    position: relative;
+    left: 0%;
+    transition: .5s;
+    cursor: pointer;
+}
+#history_box:hover {
+    background: #0008;
+}
+#history_date {
+    width: 90%;
+    margin-top: 10px;
+    font-size: 12px;
+}
+#history_title {
+    position: relative;
+    font-size: 17px;
+    width: 90%;
+    letter-spacing: 3px;
+}
+#history_watch {
+    position: relative;
+    display: none;
+    margin-top: 10px;
+    width: 90%;
+    text-align: center;
+}
+#exhibitior_box {
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 70px;
+    letter-spacing: 2px;
+}
+#name_roma {
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+#name_ja {
+    font-size: 13px;
+}
+iframe{
+    width:80%;
+    margin-left: 10%;
+}

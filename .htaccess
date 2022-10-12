@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+</IfModule>
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://rikkyophotoclub.com/$1 [R=301,L]
+
+<Files ~ (edit\.php|update\.php|password\.php|SCheck\.php|Pcheck\.php|Dcheck\.php|comment\.php)>
+SetEnvIf Referer "^https://rikkyophotoclub.com/" ref_ok
+SetEnvIf Referer "^https://rikkyophotoclub.com/login" ref_ok
+order deny,allow
+Deny from all
+Allow from env=ref_ok
+</Files>

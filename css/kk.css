@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'aileron Light';
+  src: url('Aileron-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: '源暎ゴシックP Light';
+  src: url('GenEi-subset.woff') format('woff');
+}
+
+@font-face {
+  font-family: '源ノ明朝 Light';
+  src: url('SourceHanSerif-Light2.woff') format('woff');
+}
+body{
+    margin: 0;
+}
+#titlew {
+    position: absolute;
+    color: #eeeeee;
+    font-family: 'Bellefair',"源ノ明朝 Light";
+    font-size: 24px;
+    top: 30px;
+    text-align: right;
+    letter-spacing: ;
+    letter-spacing: 3px;
+    width: 93%;
+    left: 5%;
+}
+
+#titleh {
+    position: absolute;
+    color: #eeeeee;
+    font-family: 'Bellefair',"源ノ明朝 Light";
+    font-size: 24px;
+    top: 70px;
+    text-align: right;
+    right: 15px;
+    letter-spacing: ;
+    letter-spacing: 3px;
+    width: 90%;
+    left: 5%;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+
+#names {
+    position: absolute;
+    color: #eeeeee;
+    font-family: 'Bellefair',"源ノ明朝 Light";
+    font-size: 15px;
+    top: 250px;
+    text-align: right;
+    right: 25px;
+    letter-spacing: ;
+    letter-spacing: 3px;
+    width: 90%;
+    left: 5%;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+}
+#place {
+    position: absolute;
+    color: #eeeeee;
+    font-family: "Bellefair","源ノ明朝 Light";
+    font-size: 15px;
+    top: 480px;
+    width: 15%;
+    text-align: left;
+    letter-spacing: ;
+    letter-spacing: 3px;
+    left: 5%;
+}
+
+#date{
+    position: absolute;
+    color: #eeeeee;
+    font-family: 'Bellefair',"源ノ明朝 Light";
+    font-size: 15px;
+    top: 540px;
+    left: 5%;
+    text-align: left;
+    letter-spacing: ;
+    letter-spacing: 3px;
+    width: 85%;
+ 
+}
+.topP{
+    display: none;
+}
+.topD{
+    display: block;
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    margin-top: -180px;
+}
+#social {
+    position: relative;
+   margin-top: 10px;
+    left: 25%;
+    width: 50%;
+}
+.twitter {
+    position: relative;
+    width: 22%;
+    top: 5px;
+    left: 0;
+}
+.line {
+    position: relative;
+    width: 18%;
+
+    left: 20%;
+}
+
+
+.facebook {
+    position: relative;
+    width: 18%;
+    left: 45%;
+}
+#share {
+    position: relative;
+    width: 30%;
+    top: 700px;
+    display: block;
+    left: 10%;
+    font-size:12px;
+    z-index: 4;
+    margin-top: 35px;
+     font-family: 'Bellefair',"源ノ明朝 Light";
+}
+#footer{
+    display: none;
+}
+
+#menukk {
+    text-decoration: none;
+    list-style-type: none;
+    color: #eeeeee;    position: relative;
+       top: 250px;
+    font-size: ;
+    letter-spacing: 2px;
+    left: 2%;
+    text-align: center;
+       width: 10%;
+    font-family: "Bellefair","源ノ明朝 Light";
+}
+
+#kkk{
+    padding-top: 10px;
+    padding-bottom: ;
+    padding-bottom: 10px;
+    border: ;
+    cursor: pointer;
+    border: 1px solid #eeeeee;
+}
+#profile,#about,#access,#photo {
+    font-family: "Bellefair","源ノ明朝 Light";
+    color: white;
+    font-size: 14px;
+    display: none;
+    letter-spacing: 2px;
+    position: relative;
+    left: 30%;
+    width: 40%;
+}
+#title2 {
+    font-size: 22px;
+    text-align: right;
+    border-bottom: 2px solid white;
+    margin-bottom: 30px;
+}
+#name {
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+    letter-spacing: 4px;
+    font-size: 18px;
+}
+#twitter{
+    display: none;
+}
+#profile{
+    display: none;
+}
+#sentence1c {
+    font-size: 20px;
+    text-align: center;
+}
+#sentence2c {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
+#photoarea li {
+    position: relative;
+    float: left;
+    width: 30%;
+    list-style: none;
+}
+
+#share {
+    position: absolute;
+    width: 25%;
+    top: 470px;
+    display: block;
+    color: white;
+    left: 75%;
+    font-size: 12px;
+    z-index: 4;
+    margin-top: 35px;
+    font-family: "Bellefair","源ノ明朝 Light";
+}
+.font{
+    font-family: serif;
+}
+

@@ -1,0 +1,497 @@
+@font-face {
+  font-family: 'aileron Light';
+  src: url('Aileron-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: '源暎ゴシックP Light';
+  src: url('GenEi-subset.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Agency';
+  src: url('AGENCYR.woff') format('woff');
+}
+html,body{
+	width: 100%;
+	margin: 0;
+	font-family: "aileron Light","源暎ゴシックP Light";
+}
+.topP{
+	display: none;
+}
+.topPH {
+    width: 70%;
+	left: 0%;
+    position: absolute;
+    z-index: 2;
+}
+
+.logo{
+	display: none;
+}
+.menu{
+	position: fixed;
+	top: 0;
+	z-index: 5;
+	display: block;
+	width: 20%;
+	left: 80%;
+}
+.open{
+	position: absolute;
+	top: 510px;
+	width: 10%;
+	left:45%;
+	cursor: pointer;
+}
+#title {
+    font-size: 26px;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 3%;
+    width: 50%;
+	padding-top: 10px;
+    text-align: left;
+	font-size: 16px;
+    letter-spacing: 3px;
+    top: 410px;
+	z-index:3;
+   
+}
+
+#since{
+	font-size: 16px;
+	position: relative;
+	padding-left: 5%;
+    padding-right: 3%;
+	display: none;
+    width: 100%;
+	padding-bottom: 10px;
+    text-align: left;
+	color: white;
+	background: rgba(50,50,50,0.5);
+	letter-spacing: 2px;
+	top: 410px;
+	z-index:3;
+}
+#bar{
+	height: 4px;
+	top: 300px;
+	width: 100%;
+	position: absolute;
+	display: none;
+	background: black;
+	z-index: 1;
+}
+.menubar {
+    list-style-type: none;
+    letter-spacing: 2px;
+    text-align: right;
+    position: fixed;
+    display: none;
+	opacity: 0;
+    margin-top: 0px;
+    z-index: 6;
+    width: 30%;
+    margin-left: 100%;
+    padding-left: 10%;
+    padding-right: 5%;
+    height: 800px;
+    background: rgba(200,200,200,0.8);
+    top: 0px;
+    padding-top: 70px;
+}
+
+#close {
+    margin-top: -60px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: "aileron Light";
+}
+
+li{
+  position: relative;
+  display: inline-block;
+	width: 100%;
+	padding-bottom: 4px;
+	margin-bottom: 15px;
+  text-decoration: none;
+}
+
+li::after {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform .3s;
+}
+li:hover::after {
+  transform-origin: left top;
+  transform: scale(1, 1);
+
+}
+.activate{
+	border-bottom: 2px solid black;
+}
+#area,#areab,#areab2{
+	left: 5%;
+	width: 90%;
+	position: relative;
+	opacity: 1;
+}
+
+#areatitle {
+    color: #222222;
+    position: absolute;
+    /*left: 76%;
+    width: 0%;
+    height: 0px; */
+    font-size: 20px;
+    letter-spacing: 1px;
+    /*padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px; */
+    border-left: 2px solid #222222;
+    border-top: 2px solid #222222;
+    left:5%;
+    padding-left:3%;
+    width:85%;
+    padding-top:10px;
+    padding-bottom:1px;
+    height:30px;
+}
+
+
+#newpage{
+	display: block;
+	opacity: 1;
+	position: relative;
+    height: 750px;
+}
+#box{
+	background: white;
+	
+}
+#newbox {
+    width: 80%;
+    position: relative;
+    color: #222222;
+    height: 170px;
+    border-left: 2px solid black;
+    margin-bottom: ;
+    margin-bottom: 15px;
+    padding-left: 3%;
+    top: 100px;
+}
+
+#detail {
+    position: relative;
+    top: 20px;
+    width: 30%;
+    left: 70%;
+    color: white;
+    background: #222222;
+    font-size: 15px;
+}
+
+
+#date {
+    font-size: 11px;
+}
+#boxtitle {
+    font-size: 18px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+#sentence {
+	margin-top: 15px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+.B1{
+	left: 5%;
+}.B2{
+	left: 5%;
+}.B3{
+	left: 5%;
+}
+#newtable {
+    position: relative;
+    color: black;
+    font-size: 11px;
+    left: 5%;
+	width: 90%;
+    top: 200px;
+}
+
+
+td {
+    border-bottom: 1px solid #888888;
+    width: 50%;
+    padding-bottom: 5px;
+}
+
+#newmore {
+    color: white;
+    position: absolute;
+	display: none;
+    top: 450px;
+    left: 75%;
+    padding: 15px;
+    border: 1px solid white;
+	cursor: pointer;
+}
+#contents {
+    display: block;
+    opacity: 1;
+    position: relative;
+    margin-top: 30px;
+}
+
+.cont {
+    width: 80%;
+    left: 10%;
+    position: relative;
+	padding-bottom: 40px;
+    top: 100px;
+}
+#footer {
+    display: block;
+    opacity: 1;
+    position: absolute;
+    font-family: "aileron Light","源暎ゴシックP Light";
+    color: white;
+    font-size: 14px;
+   
+    margin-top: 600px;
+    width: 100%;
+    height: 750px;
+    background: #444444;
+}
+#footer a{
+    color: #eeeeee;
+}
+#footer #title {
+     font-size: 26px;
+    position: absolute;
+    padding-left: 5%;
+    padding-right: 3%;
+    width: 50%;
+	padding-top: 10px;
+    text-align: left;
+	font-size: 16px;
+    letter-spacing: 3px;
+    top: 20px;
+	z-index:3;
+    position: relative;
+}
+#title2 {
+    position: relative;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    left: 20%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+#footer #names {
+    font-size: 9px;
+    color: #c1cad3;
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+#sentencearea{
+    width: 60%;
+    position: relative;
+    color: #eeeeee;
+    margin-top: 10px;
+    font-size: 12px;
+    left: 20%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#sentencearea2{
+    width: 80%;
+    position: relative;
+    color: #eeeeee;
+    margin-top: 10px;
+    font-size: 12px;
+    left: 10%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#social {
+    position: relative;
+   margin-top: 10px;
+    left: 25%;
+    width: 50%;
+}
+.twitter {
+    position: relative;
+    width: 22%;
+    top: 5px;
+    left: 5%;
+}
+
+
+.facebook {
+    position: relative;
+    width: 18%;
+    left: 50%;
+}
+
+#menus {
+    position: relative;
+    margin-top: 20px;
+    color: #eeeeee;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+}
+
+#menus tr {
+    width: 50%;
+    letter-spacing: 3px;
+    left: 25%;
+    position: relative;
+}
+#loginto{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 25px;
+} 
+#cookie{
+    position: fixed;
+    display: none;
+    top: 500px;
+    background: rgba(50,50,50,0.5);
+    color: white;
+    font-size: 10px;
+}
+#exhibitions{
+    position: fixed;
+    height: 800px;
+    width: 100%;
+    z-index: 6;
+    opacity: 0;
+}
+.exhibitionpic {
+    width: 120%;
+    z-index: 5;
+    left: -10%;
+    opacity: 1;
+    position: fixed;
+}
+
+#Etitle {
+    position: relative;
+    margin-top: 60px;
+    width: 55%;
+    padding-left: 5%;
+    background: rgba(40,40,40,0.5);
+    color: #ffffff;
+    font-size: 42px;
+    font-family: "Agency","源暎ゴシックP Light";
+    z-index: 6;
+}
+#Esentence {
+    position: relative;
+    color: #ffffff;
+    font-size: 14px;
+    width: 80%;
+    background: rgba(40,40,40,0.5);
+    top: 20px;
+    letter-spacing: 2px;
+    left: 5%;
+    font-family: "Agency","源暎ゴシックP Light";
+    z-index: 6;
+}
+
+#Ebutton {
+    color: black;
+    font-family: "Agency","源暎ゴシックP Light";
+    position: relative;
+    top: 230px;
+    margin-top: 10px;
+    background: rgba(200,200,200,0.8);
+    width: 50%;
+    text-align: center;
+    left: 45%;
+    border: 1px solid;
+    padding: 5px;
+    z-index: 6;
+}
+#loadingS{
+    border: 6px solid #111111;
+    border-radius: 50%;
+    border-top: 4px solid #999999;
+    position: fixed;
+    width: 60px;
+    left: 40%;
+    height: 60px;
+    top: 300px;
+    animation: loadingA 2s linear infinite;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+@keyframes loadingA{
+    0%{
+        transform: rotate(0deg);
+        border-top: 6px solid #eeeeee;
+    }
+    16%{
+        transform: rotate(60deg);
+        border-top: 6px solid #eeeeee;
+    }32%{
+        transform: rotate(120deg);
+        border-top: 6px solid #eeeeee;
+    }48%{
+        transform: rotate(180deg);
+        border-top: 6px solid #eeeeee;
+    }64%{
+        transform: rotate(240deg);
+        border-top: 6px solid #eeeeee;
+    }80%{
+        transform: rotate(300deg);
+        border-top: 6px solid #eeeeee;
+    }100%{
+        transform: rotate(360deg);
+        border-top: 6px solid #eeeeee
+    }
+}
+#loadingS2{
+    position: fixed;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 40%;
+    left: 30%;
+    color: #111111;
+}
+#loadingpage{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 1200px;
+    background: white;
+    z-index: 5;
+}

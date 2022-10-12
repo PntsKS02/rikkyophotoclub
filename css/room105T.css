@@ -1,0 +1,923 @@
+html,body{
+    margin: 0px;
+    font-family: 'futura-pt','noto-sans-cjk-jp';
+    position: relative;
+     color: #eee;
+    background: #333;
+    font-weight: 400;
+}
+
+/* ALL */
+#gallery_title {
+    font-size: 35px;
+    letter-spacing: 6px;
+    width: 70%;
+    left: 10%;
+    position: relative;
+    margin-top: 50px;
+    z-index:3;
+}
+#gallery_subtitle {
+    font-size: 14px;
+    position: relative;
+    left: 10%;
+    width: 70%;
+    letter-spacing: 4px;
+    margin-bottom: 60px;
+    z-index:3;
+}
+
+#area_mypage #area_title {
+    font-size: 20px;
+    letter-spacing: 10px;
+    margin-top: 50px;
+    border-bottom: 1px solid;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    width: 80%;
+     letter-spacing: 0.5px;
+}
+
+span{
+    display: inline-block;
+    width: 40px;
+}
+#button_2 {
+    padding: 2%;
+    width: 76%;
+    left: 10%;
+    position: relative;
+    margin-top: 20px;
+    background: #ddd;
+    color: #333;
+    text-align: center;
+}
+.menu_icon{
+    position: fixed;
+    left: 85%;
+    width: 12%;
+    top: 3vh;
+    z-index: 4;
+}
+
+#loading_screen{
+    display: block;
+    opacity: 1;
+    height: 1200px;
+    position: fixed;
+    z-index: 7;
+    width: 100%;
+    top: 0;
+    background: #333;
+}
+#loading_bar{
+    position: fixed;
+    height: 3px;
+    top: 48vh;
+    background:#eee;
+    z-index:5;
+    transition: .5s;
+}
+#loading_count{
+    position: fixed;
+    width: 20%;
+    left: 40%;
+    text-align: center;
+    font-family: 'futura-pt','noto-sans-cjk-jp';
+    font-weight: 400;
+    font-style:italic;
+    color:#eee;
+    z-index:5;
+}
+a{
+    text-decoration: none;
+    color: #eee;
+}
+#area_main{
+    opacity:0;
+}
+.area_title2 {
+    font-size: 18px;
+    text-align: left;
+    border-bottom: 1px solid;
+    padding: 5px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+
+/* ALL(menu) */
+
+#menuzone {
+    position: fixed;
+    top: 0;
+    margin-left: 100%;
+    width: 100%;
+    height: 105vh;
+    background: #111c;
+    z-index: 5;
+    display: none;
+    color: #eeef;
+    opacity: 0;
+}
+
+#menu_title {
+    margin-top: 10vh;
+    left: 10%;
+    position: relative;
+    font-size: 30px;
+    letter-spacing: 8px;
+}
+
+#menu_list {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 5vh;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+    border-left: 2px solid;
+    padding-left: 2%;
+    transition: .5s;
+}
+#list_roma {
+    font-size: 24px;
+    letter-spacing: 5px;
+}
+#list_ja {
+    font-size: 11px;
+}
+
+.menu_icon_close{
+    position: fixed;
+    left: 85%;
+    width: 12%;
+    top: 3vh;
+    z-index: 7;
+}
+
+/* ALL(footer) */
+
+div#footer {
+    position: relative;
+    background: #333b;
+    top: 20px;
+    color: #eee;
+    clear: both;
+}
+div#footer_title {
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 2px;
+    top: 30px;
+    position: relative;
+    left: 5%;
+    width: 70%;
+}
+div#footer_contents {
+    position: relative;
+    clear: both;
+    height: 70px;
+}
+div#fc_title {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    float: left;
+    position: relative;
+    left: 5%;
+    top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+}
+
+ul.menu_footer {
+    top: 52px;
+    position: relative;
+    z-index: 4;
+}
+.footer_a{
+    list-style: none;
+    text-decoration: none;
+    width: 80%;
+    left: 0;
+    position: relative;
+    letter-spacing: 2px;
+    color: #eee;
+}
+
+.menu_footer li {
+    float: left;
+    position: relative;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.map {
+    color: #eee;
+    text-decoration: none;
+    float: left;
+    width: 80%;
+    left: 10%;
+    position: relative;
+    text-align: center;
+    top: 40px;
+}
+div#fc_sentence {
+    position: relative;
+    font-size: 14px;
+}
+
+#footer .sns_pic{
+    width: 12%;
+    float: left;
+    position: relative;
+    left: 30%;
+    top: 80px;
+    margin-right: 18%;
+} 
+div#footer_c {
+    clear: both;
+    margin-top: 100px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    left: 5%;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    padding-bottom: 30px;
+}
+
+/* room105.php*/
+
+.door_close{
+    width: 30%;
+    left: 35%;
+    position: fixed;
+    top: 20vh;
+}
+.door_open{
+    width: 30%;
+    left: 35%;
+    position: fixed;
+    top: 20vh;
+    display: none;
+}
+img.top_pic_Mobile {
+   display: none;
+}
+.top_pic_PC{
+    height: 105vh;
+    position: fixed;
+    top: -10px;
+    left: -5px;
+    z-index: 0;
+}
+#titlearea {
+    z-index: 3;
+    position: relative;
+    color: #eee;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 27vh;
+    text-align: center;
+    overflow-x: hidden;
+}
+#title {
+    font-size: 52px;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+#title_sub {
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+#datearea {
+    position: relative;
+    color: #eee;
+    font-weight: 400;
+    width: 80%;
+    text-align: center;
+    left: 10%;
+    margin-top: 50px;
+    letter-spacing: 3px;
+    line-height: 2;
+    font-size: 12px;
+}
+#namearea {
+    position: relative;
+    color: #eee;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    line-height: 2;
+    font-size: 10px;
+}
+.area_1 {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-bottom: 150px;
+    color: #eee0;
+     transition: .5s;
+    overflow-x: hidden;
+}
+#titlezone{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+#area_title {
+    font-size: 32px;
+    letter-spacing: 8px;　
+}
+#area_sub {
+    font-size: 13px;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    white-space: nowrap;
+    width: 0;
+    margin-left: 50%; 
+    position: relative;
+    margin-bottom: 25px;
+}
+#area_sentence {
+    margin-top: 50px;
+    font-size: 13px;
+    text-align:left;
+    letter-spacing: 3px;
+    line-height: 2.5;
+}
+#area_sentence2 {
+    margin-top: 50px;
+    font-size: 13px;
+    text-align:left;
+    letter-spacing: 3px;
+    line-height: 2.5;
+} 
+#place{
+    font-size: 24px; 
+}
+#history_box {
+    text-align: left;
+    margin-top: 30px;
+    border-left: 1px solid;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding-left: 5%;
+    width: 95%;
+    position: relative;
+    left: 0%;
+    transition: .5s;
+    cursor: pointer;
+}
+#history_box:hover {
+    background: #0008;
+}
+#history_date {
+    width: 90%;
+    margin-top: 10px;
+    font-size: 12px;
+}
+#history_title {
+    position: relative;
+    font-size: 17px;
+    width: 90%;
+    letter-spacing: 3px;
+}
+#history_watch {
+    position: relative;
+    display: none;
+    margin-top: 10px;
+    width: 90%;
+    top: 10px;
+    text-align: center;
+}
+#exhibitior_box {
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    float: left;
+    height: 70px;
+    letter-spacing: 2px;
+}
+#name_roma {
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+#name_ja {
+    font-size: 13px;
+}
+iframe{
+    width:80%;
+}
+
+/* room105-register.php */
+
+#loginbox{
+    margin-top: 100px;
+    width: 80%;
+    left: 10%;
+    position: relative;
+    text-align: center;
+}
+#log_IP {
+    margin-top: 10px;
+}
+input[type="text"] {
+    width: 80%;
+    left:10%;
+    position:relative;
+    border: none;
+    height: 30px;
+    font-size: 18px;
+    background: #ccc;
+    margin-bottom: 10px;
+     font-family: 'futura-pt','noto-sans-cjk-jp';
+}
+textarea.writebox {
+    background: #ccc;
+    width: 80%;
+    left:10%;
+    position:relative;
+    margin-bottom: 10px;
+    font-size: 18px;
+     font-family: 'futura-pt','noto-sans-cjk-jp';
+}
+input[type="password"] {
+    width: 80%;
+    left:10%;
+    position:relative;
+    border: none;
+    background: #ccc;
+    height: 30px;
+    font-size: 18px;
+    position: relative;
+
+}
+input[type="color"] {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    background: #ddd;
+    border: none;
+    height: 40px;
+}
+#login_area1 {
+    padding: 2%;
+    background: #777;
+    margin-bottom: 50px;
+    text-align: left;
+}
+#button {
+    width: 80%;
+
+    position:relative;
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+    color: #ddd;
+    background: green;
+     font-family: 'futura-pt','noto-sans-cjk-jp';
+}
+#log_IP_W {
+    font-weight: 600;
+    color: #dd0000;
+}
+select{
+    width: 80%;
+    border: none;
+    background: #ccc;
+    height: 30px;
+    font-size: 18px;
+    left: 10%;
+    position: relative;
+     font-family: 'futura-pt','noto-sans-cjk-jp';
+}
+#complete_sentence {
+  font-size: 22px;
+    text-align: center;
+    background: green;
+    margin-top: 30px;
+    width: 80%;
+    left: 10%;
+    position: relative;
+}
+
+
+#incorrect{
+    display: none;
+    background: #aa0000;
+}
+/* room105-exhibitior.php */
+
+.exhibitior_area {
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 3%;
+    letter-spacing: 3px;
+    font-size: 13px;
+    overflow: hidden;
+    transition: .5s;
+    border-left: 10px solid;
+    margin-bottom: 80px;
+}
+#exhibitior_name {
+    float: left;
+    margin-right: 10%;
+}
+#exhibitior_roma {
+    font-size: 23px;
+    letter-spacing: 3px;
+}
+#status_left {
+    
+}
+#exhibitior_theme {
+    margin-top: 30px;
+    font-size: 25px;
+}
+#exhibitior_title {
+    position: relative;
+    font-size: 26px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    border-bottom: 2px solid;
+    transition: .5s;
+}
+#exhibitior_comment {
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 2;
+}
+#e_camera {
+    padding-left: 3%;
+    border-left: 2px solid;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+/* room105-exhibitior2.php */
+#user_box {
+    width: 80%;
+    left: 10%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-right: 5%;
+    height: 280px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+#user_name {
+    font-size: 24px;
+}
+#user_2{
+    margin-bottom: 5px;
+}
+/* room105-instacheck.php */
+#user_box2 {
+    width: 80%;
+    left: 10%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-right: 5%;
+    height: auto;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom:50px;
+}
+#user_insta {
+}
+.insta_self {
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+/* room105-access.php */
+#area_time {
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*  room105-exhibitior-detail.php */
+#back_detail{
+    width: 100%;
+    height: 105vh;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+    opacity: 0.3;
+}
+.exhibitior_pic {
+    width: 70%;
+    left: 15%;
+    position: relative;
+    transition: .5s;
+    margin-top: 50px;
+    border-radius: 12px;
+    margin-bottom: 60px;
+    opacity: 0;
+}
+#exhibitor_theme_d {
+    font-size: 22px;
+}
+#exhibitor_theme_r {
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    line-height: 2;
+    font-size: 12px;
+}
+#color_p {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 2%;
+    position: relative;
+    margin-top: 10px;
+}
+.other_user {
+    position: relative;
+    width: 80%;
+    margin-top: 15px;
+    clear: both;
+}
+#other_roma {
+    position: relative;
+    left: 5%;
+    font-size: 18px;
+    top: 3px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+#other_ja {
+    position: relative;
+    font-size: 11px;
+    letter-spacing: 2px;
+    top: 6px;
+    text-align: left;
+    left: 5%;
+}
+
+/* room105-summary.php */
+#summary_1{
+    border-left: 5px solid;
+    padding-left: 3%;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 10px;
+}
+#summary_1 #area_title {
+    font-size: 23px;
+    text-align: left;
+    letter-spacing: 6px;
+    /* height: 50px; */
+}
+#summary_1 #area_sub {
+    text-align: left;
+    margin-left: 0;
+    margin-top: -15px;
+    font-size: 12px;
+}
+#summary_sentence {
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* room105-sns.php */
+#insta_area{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+    overflow: hidden;
+    
+}
+#insta_img_wrap {
+  display: block;
+  position: relative;
+  width: 30%;
+    margin-left: 1.55%;
+    margin-right: 1.55%;
+    margin-bottom: 1vh;
+}
+
+#insta_img_wrap::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.insta_imgs {
+   position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.sns_pic {
+    width: 15%;
+    float: left;
+    text-align: center;
+    left: 5%;
+    position: relative;
+    margin-top: 7px;
+}
+#sns_id {
+    font-size: 16px;
+    border-bottom: 3px solid #880088;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 15%;
+    position: relative;
+    float: left;
+    margin-bottom: 30px;
+}
+#insta_detail {
+   position: fixed;
+    z-index: 5;
+    top: 10vh;
+    width: 80%;
+    background: #333;
+    padding-top: 5vh;
+    height: 75vh;
+    display: none;
+}
+#insta_detail_back {
+    width: 100%;
+    height: 110vh;
+    position: fixed;
+    background: #333a;
+    top: 0;
+    left: 0;
+}
+#insta_left {
+    position: relative;
+    width: 100%;
+}
+.insta_img_detail {
+    width: 90%;
+    position: relative; 
+}
+#insta_caption {
+    margin-top: 10px;
+    text-align: left;
+    line-height: 1.5;
+    height: 30vh;
+    overflow: scroll;
+}
+#insta_right {
+    position: relative;
+    font-size: 12px;
+    letter-spacing: 2px;
+    width: 90%;
+    left: 5%;
+}
+#insta_page {
+    margin-top: 30px;
+    position: relative;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid;
+}
+/* digital gallery */
+#insta_namebar {
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 4px;
+    border-bottom: 2px solid;
+    margin-bottom: 5vh;
+    margin-top: 30px;
+    position: relative;
+}
+#insta_area2{
+        width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+#insta_img_wrap2 {
+    display: block;
+    position: relative;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2vh;
+}
+#insta_img_wrap2::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+#button_1 {
+        position: relative;
+    width: 60%;
+    padding: 2%;
+    background: #333;
+    letter-spacing: 2px;
+    left: 18%;
+}
+#button_1a {
+        position: relative;
+    width: 60%;
+    padding: 2%;
+    background: #333;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    letter-spacing: 2px;
+    left: 18%;
+}
+.gallery_imgs{
+        width: 100%;
+    margin-bottom: 30px;
+}
+#timetable_date {
+    width: 11.11%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    display: inline-block;
+    white-space: normal;
+    text-align: center;
+    font-size: 11px;
+}
+#timetable_row {
+    width: 200%;
+    position: relative;
+    clear: both;
+    background: #aaa8;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#shift_timetable {
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.summary-pc {
+    width: 100%;
+    /* left: 5%; */
+    position: relative;
+    background: #ddda;
+    margin-top: 30px
+}
+.summary-mobile{
+    display: none;
+}
+#workfloor {
+    font-size: 18px;
+    text-align: left;
+    border-bottom: 1px solid;
+}
+#e_camera2 {
+   padding-left: 3%;
+    border-left: 2px solid;
+    margin-top: 10px;
+    font-size: 13px;
+    width: 45%;
+    float: left;
+}
+.exhibitior_area2 {
+    text-align: left;
+    /* margin-top: 30px; */
+    padding-left: 3%;
+    letter-spacing: 3px;
+    font-size: 12px;
+    overflow: hidden;
+    transition: .5s;
+    border-left: 10px solid;
+    /* margin-bottom: 80px; */
+}
+.exhibitior_area2 #exhibitior_roma {
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+#goin{
+    width: 70%;
+}
+#theater_movie {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}

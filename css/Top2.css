@@ -1,0 +1,177 @@
+html,body{
+	width: 100%;
+	margin: 0;
+	font-family: "aileron Light","源暎ゴシックP Light";
+}
+
+.topP{
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 22%;
+	z-index: 2;
+}
+.topPH{
+	display: none;
+}
+.logo{
+	display: none;
+}
+.menu{
+	position: absolute;
+	top: 0;
+	display: none;
+	width: 7%;
+	left: 93%;
+}
+.open{
+	position: absolute;
+	top: 550px;
+	width: 4%;
+	left:48%;
+	cursor: pointer;
+}
+#title{
+	font-size: 26px;
+	position: absolute;
+	left: 3%;
+	letter-spacing: 2px;
+	top: 260px;
+}
+#since{
+	font-size: 16px;
+	position: absolute;
+	left: 3%;
+	letter-spacing: 2px;
+	top: 310px;
+}
+#bar{
+	height: 4px;
+	top: 300px;
+	width: 100%;
+	position: absolute;
+	background: black;
+	z-index: 1;
+}
+.menubar {
+    list-style-type: none;
+    letter-spacing: 0.5px;
+    text-align: right;
+    position: fixed;
+    width: 10%;
+    left: 85%;
+    top: 70px;
+}
+li{
+  position: relative;
+  display: inline-block;
+	width: 100%;
+	padding-bottom: 4px;
+  text-decoration: none;
+}
+
+li::after {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: right top;
+  transition: transform .3s;
+}
+li:hover::after {
+  transform-origin: left top;
+  transform: scale(1, 1);
+
+}
+.activate{
+	background: black;
+	color: white;
+}
+#areatitle {
+    color: #eeeeee;
+    position: absolute;
+    top: 110px;
+    left: 5%;
+    height: 30px;
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding-left: 2%;
+    border-left: 30px solid #eeeeee;
+}
+#newpage{
+	opacity: 0;
+}
+#box{
+	display: none;
+}
+#contents{
+	display: none;
+}
+#newbox {
+    width: 20%;
+    position: absolute;
+    color: white;
+    height: 135px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    padding-left: 1%;
+    top: 200px;
+}
+#date {
+    font-size: 12px;
+}
+#boxtitle {
+    font-size: 24px;
+    margin-top: 5px;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+#sentence {
+	margin-top: 5px;
+    font-size: 12px;
+}
+.B1{
+	left: 5%;
+}.B2{
+	left: 30%;
+}.B3{
+	left: 55%;
+}
+#close{
+	display: none;
+}
+#newtable {
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    left: 5%;
+    top: 400px;
+}
+
+td{
+	padding-right: 15px;
+}
+#detail {
+    left: 60%;
+    position: relative;
+}
+
+#newmore {
+    color: white;
+    position: absolute;
+    top: 450px;
+    left: 75%;
+    padding: 15px;
+    border: 1px solid white;
+	cursor: pointer;
+}
+
+#footer,#cookie{
+    display: none;
+}

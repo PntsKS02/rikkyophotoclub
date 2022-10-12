@@ -1,0 +1,42 @@
+html{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    width: 100%;
+}
+body{
+    margin: 0;
+}
+#title{
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 104px;
+    line-height: 101px;
+    position: absolute;
+    width: 20%;
+    left: -2%;
+    text-align: left;
+    top: 295px;
+    z-index: 3;
+    color: #888;
+}
+#subtitle {
+   font-size: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    margin-top: 30px;
+    left: 5%;
+    width: 70%;
+    left: 25%;
+    text-align: right;
+    z-index: 3;
+    color: #aaa;
+}
+.title_pic{
+    position: absolute;
+    width: 90%;
+    left: 10%;
+    top: 0;
+    z-index: 1;
+}

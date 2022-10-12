@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'aileron Light';
+  src: url('Aileron-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: '源暎ゴシックP Light';
+  src: url('GenEi-subset.woff') format('woff');
+}
+html{
+	font-family: "aileron Light"
+}
+#title {
+    position: absolute;
+     color: #eeeeee;    font-family: "Aileron Light";
+    font-size: 24px;    top: 250px;
+    text-align: center;
+    letter-spacing: ;
+    letter-spacing: 3px;
+    width: 90%;
+    left: 5%;
+}
+#date {
+    position: absolute;    top: 430px;    left: 10%;    width: 70%;    text-align: left;
+    font-family: "aileron Light";    font-size: 14px;    letter-spacing: 2px;
+      color: #eeeeee;
+}#place {
+    position: absolute;    top: 460px;    left: 10%;    width: 70%;    text-align: left;
+    font-family: "aileron Light";    font-size: 12px;    letter-spacing: 2px;
+      color: #eeeeee;
+}#bars {
+    position: absolute;
+    top: 380px;
+    left: 65%;
+    width: 30%;
+    text-align: right;
+    font-family: "aileron Light";
+    font-size: 18px;
+    width: 30%;
+    width: '';
+	display: none;
+    letter-spacing: 2px;
+    color: #eeeeee;
+}
+
+
+li {
+    float: left;
+    position: relative;
+	text-align: center;    list-style-type: none;
+    padding-left: 1%;
+    padding-right: 1%;
+ 	padding-top: 3px;
+	border-top: 2px solid #eeeeee;
+    width: 25%;
+}
+.back{
+	display: none;
+}
+.backM{
+
+    position: absolute;
+    margin: 0;
+    top:30px;
+    left: 5%;
+    width: 90%;
+}
+
+.topimg {
+    width: 60%;
+    position: absolute;
+    left: 0px;
+    top: 220px;
+}
+
+
+#boxsentence {
+    position: absolute;
+    width: 35%;
+    left: 60%;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    top: 0px;
+    color: white;
+    text-align: right;
+    padding-right: 5%;
+    background: #222222;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+#boxH {
+	position: absolute;
+	top:0;
+	left: 0;
+	border-right: 2px solid #222222;
+	height: 600px;
+	width: 60%;
+}
+#link {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 2px;
+    left: 5%;
+	z-index: 6;
+	width: 40%;
+    top: 150px;
+} 
+
+a{
+	color: black;
+	text-decoration: none;
+}

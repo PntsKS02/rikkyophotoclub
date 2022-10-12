@@ -1,0 +1,1084 @@
+html,body{
+    margin: 0px;
+    font-family: 'futura-pt','noto-sans-cjk-jp';
+    position: relative;
+    color: #eee;
+    background: #333;
+    color: #eee;
+    font-weight: 400;
+}
+
+/* ALL */
+#gallery_title {
+    font-size: 44px;
+    letter-spacing: 6px;
+    width: 70%;
+    left: 10%;
+    position: relative;
+    margin-top: 50px;
+    z-index:3;
+}
+#gallery_subtitle {
+    font-size: 18px;
+    position: relative;
+    left: 10%;
+    width: 70%;
+    letter-spacing: 4px;
+    margin-bottom: 60px;
+    z-index:3;
+}
+#area_mypage #area_title {
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-top: 50px;
+    border-bottom: 1px solid;
+    position: relative;
+    left: 10%;
+    text-align: center;
+    width: 80%;
+    letter-spacing: 0.5px;
+}
+span{
+    display: inline-block;
+    width: 40px;
+}
+#button_2 {
+    padding: 10px;
+    width: 30%;
+    left: 33%;
+    position: relative;
+    margin-top: 20px;
+    background: #ddd;
+    color: #333;
+    text-align: center;
+    clear: both;
+    transition: .5s;
+}
+#button_2:hover{
+    color: #eee;
+    background: #333;
+}
+.menu_icon{
+    position: fixed;
+    left: 91%;
+    width: 7%;
+    top: 5vh;
+    z-index: 4;
+     cursor: pointer;
+}
+
+#loading_screen{
+    display: block;
+    opacity: 1;
+    height: 1200px;
+    position: fixed;
+    z-index: 7;
+    width: 100%;
+    top: 0;
+    background: #333;
+}
+#loading_bar{
+    position: fixed;
+    height: 3px;
+    top: 48vh;
+    background:#eee;
+    z-index:5;
+     transition: .5s;
+}
+#loading_count{
+    position: fixed;
+    width: 20%;
+    left: 40%;
+    text-align: center;
+    font-family: 'futura-pt','noto-sans-cjk-jp';
+    font-weight: 400;
+    font-style:italic;
+    color:#eee;
+    z-index:5;
+}
+
+a{
+    text-decoration: none;
+    color: #eee;
+
+}
+
+#area_main{
+    opacity:0;
+}
+
+.area_title2{
+    font-size: 24px;
+    text-align: left;
+    border-bottom: 1px solid;
+    letter-spacing: 4px;
+    clear: both;
+    padding: 10px;
+    margin-top: 20px;
+}
+#page_tour {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+/* ALL(menu) */
+
+#menuzone {
+    position: fixed;
+    top: 0;
+    margin-left: 100%;
+    width: 100%;
+    height: 105vh;
+    background: #111c;
+    z-index: 5;
+    display: none;
+    color: #eeef;
+    opacity: 0;
+}
+
+#menu_title {
+    margin-top: 10vh;
+    left: 10%;
+    position: relative;
+    font-size: 38px;
+    letter-spacing: 8px;
+}
+
+#menu_list {
+    position: relative;
+    width: 33%;
+    margin-right: 5%;
+    left: 10%;
+    float: left;
+    top: 10vh;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    border-left: 2px solid;
+    padding-left: 2%;
+    transition: .5s;
+}
+#menu_list:hover{
+    background: #eeea;
+    color: #333;
+}
+#list_roma {
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+#list_ja {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.menu_icon_close{
+    position: fixed;
+    left: 91%;
+    width: 7%;
+    top: 5vh;
+    z-index: 7;
+    cursor: pointer;
+}
+/* ALL(footer) */
+
+div#footer {
+    position: relative;
+    background: #333b;
+    top: 20px;
+    color: #eee;
+    clear: both;
+    height: 370px; 
+}
+div#footer_title {
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 2px;
+    top: 30px;
+    position: relative;
+    left: 5%;
+    width: 40%;
+}
+div#footer_contents {
+    position: relative;
+    clear: both;
+    height: 70px;
+}
+div#fc_title {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    float: left;
+    position: relative;
+    left: 5%;
+    top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 10%;
+    border-right: 2px solid;
+}
+ul.menu_footer {
+    list-style: none;
+    width: 80%;
+    left: 5%;
+    position: relative;
+    top: 52px;
+    letter-spacing: 2px;
+}
+.footer_a{
+    float: left;
+    position: relative;
+    width: 14%;
+    text-align: center; 
+    color: #eee;
+    text-decoration: none;
+}
+
+
+.menu_footer2 {
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 60px;
+    clear: both;
+    overflow: hidden;
+    letter-spacing: 5px;
+    line-height: 2;
+    margin-bottom: 0;
+    padding-bottom: 55px;
+}
+.footer_b{
+   list-style: square;
+    text-decoration: none;
+    width: 80%;
+    left: 0;
+    position: relative;
+    letter-spacing: 2px;
+    color: #eee;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.footer_a2 {
+    font-size: 14px;
+    line-height: 2; 
+}
+#footer_area2{
+    width: 30%;
+    float: left;
+    left: 8%;
+    top: 60px;
+    position: relative;
+}
+.map {
+    color: #eee;
+    text-decoration: none;
+    float: left;
+    width: 80%;
+}
+div#fc_sentence {
+    left: 10%;
+    position: relative;
+    top: 40px;
+    font-size: 14px;
+}
+
+#footer .sns_pic{
+    width: 5%;
+    float: left;
+    position: relative;
+    left: 5%;
+    top: 50px;
+    margin-right: 5%;
+} 
+div#footer_c {
+    clear: both;
+    margin-top: 80px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    left: 45%;
+    text-align: right;
+    position: relative;
+    width: 50%;
+}
+
+/* room105.php*/
+.door_close{
+    width: 14%;
+    left: 43%;
+    position: fixed;
+    top: 30vh;
+}
+.door_open{
+    width: 14%;
+    left: 43%;
+    position: fixed;
+    top: 30vh;
+    display: none;
+}
+img.top_pic_PC {
+    width: 100%;
+    position: fixed;
+    top: -50px;
+    z-index: 0;
+}
+.top_pic_Mobile{
+    display: none;
+}
+div#titlearea {
+    z-index: 3;
+    position: relative;
+    color: #eee;
+    width: 50%;
+    left: 25%;
+    margin-top: 25vh;
+    text-align: center;
+    overflow-x: hidden;
+}
+#title {
+    font-size: 72px;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+#title_sub {
+    font-size: 26px;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+#datearea {
+    position: relative;
+    color: #eee;
+    font-weight: 400;
+    width: 50%;
+    text-align: center;
+    left: 25%;
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+#namearea {
+    position: relative;
+    color: #eee;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 50px;
+}
+#titlezone{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.area_1 {
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-bottom: 150px;
+    overflow: hidden;
+    color: #eee0;
+     transition: .5s;
+}
+#area_title {
+    font-size: 48px;
+    letter-spacing: 10px;
+    
+}
+#area_sub {
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+    white-space: nowrap;
+    width: 0;
+    margin-left: 50%;
+    position: relative;
+}
+#area_sentence {
+    margin-top: 80px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 2.5;
+    margin-bottom:40px;
+}
+#area_sentence2 {
+    margin-top: 80px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 2.5;
+    float: left;
+    width: 50%;
+    margin-bottom:40px;
+} 
+#place{
+    font-size: 24px; 
+}
+#history_box {
+    text-align: left;
+    margin-top: 30px;
+    /* height: 40px; */
+    border-left: 1px solid;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding-left: 5%;
+    width: 81%;
+    position: relative;
+    left: 5%;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#history_date {
+    width: 15%;
+    float: left;
+    margin-top: 10px;
+}
+#history_title {
+    position: relative;
+    float: left;
+    font-size: 24px;
+    width: 50%;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+#history_sentence {
+    clear: both;
+    letter-spacing: 3px;
+    line-height: 2;
+}
+#history_watch {
+    position: relative;
+    margin-top: 10px;
+    float: left;
+    width: 35%;
+    text-align: center;
+}
+#exhibitior_box {
+    margin-top: 30px;
+    width: 40%;
+    position: relative;
+    float: left;
+    height: 70px;
+    letter-spacing: 2px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#name_roma {
+    font-size: 26px;
+    letter-spacing: 4px;
+}
+#name_ja {
+    font-size: 14px;
+}
+iframe{
+    width:50%;
+}
+
+/* room105-register.php */
+
+#loginbox{
+    margin-top: 100px;
+    width: 80%;
+    left: 10%;
+    position: relative;
+    text-align: center;
+}
+#log_IP {
+    margin-top: 10px;
+}
+input[type="text"] {
+    width: 80%;
+    border: none;
+    height: 30px;
+    font-size: 18px;
+    background: #ccc;
+    margin-bottom: 10px;
+     font-family: 'futura-pt','noto-sans-cjk-jp';
+}
+textarea.writebox {
+    background: #ccc;
+    width: 80%;
+    margin-bottom: 10px;
+    font-size: 18px;
+     font-family: 'futura-pt','noto-sans-cjk-jp';
+}
+input[type="password"] {
+    width: 80%;
+    border: none;
+    background: #ccc;
+    height: 30px;
+    font-size: 18px;
+    left: 0;
+    position: relative;
+
+}
+input[type="color"] {
+    position: relative;
+    width: 80%;
+    background: #ddd;
+    border: none;
+    height: 40px;
+}
+#login_area1 {
+    padding: 2%;
+    background: #777;
+    margin-bottom: 50px;
+}
+#button {
+    width: 80%;
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+    color: #ddd;
+    background: green;
+     font-family: 'futura-pt','noto-sans-cjk-jp';
+}
+#log_IP_W {
+    font-weight: 600;
+    color: #dd0000;
+}
+select{
+    width: 80%;
+    border: none;
+    background: #ccc;
+    height: 30px;
+    font-size: 18px;
+    left: 0;
+    position: relative;
+     font-family: 'futura-pt','noto-sans-cjk-jp';
+}
+#complete_sentence {
+    font-size: 22px;
+    text-align: center;
+    background: green;
+    margin-top: 30px;
+    width: 50%;
+    left: 25%;
+    position: relative;
+}
+#incorrect{
+    display: none;
+    background: #aa0000;
+}
+
+/* room105-exhibitior.php */
+
+.exhibitior_area {
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 3%;
+    letter-spacing: 3px;
+    font-size: 14px;
+    overflow: hidden;
+    transition: .5s;
+    border-left: 10px solid;
+    margin-bottom: 90px;
+}
+#exhibitior_roma {
+    font-size: 32px;
+    letter-spacing: 6px;
+}
+#status_left {
+    float: left;
+    width: 50%;
+}
+#status_right{
+    float: left;
+    width: 50%;
+}
+
+#exhibitior_theme {
+    margin-top: 30px;
+    font-size: 28px;
+}
+#exhibitior_comment {
+    margin-top: 30px;
+    line-height: 2;
+}
+
+#exhibitior_title {
+    position: relative;
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    border-bottom: 2px solid;
+    transition: .5s;
+}
+#e_camera {
+    padding-left: 3%;
+    border-left: 2px solid;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#gallery_img_wrap{
+    width: 60%;
+    position: relative;
+    margin-left: 20%;
+}
+.gallery_imgs{
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* room105-exhibitior2.php */
+#user_box {
+    width: 35%;
+    left: 10%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-right: 5%;
+    height: 280px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+#user_name {
+    font-size: 24px;
+}
+#user_2{
+    margin-bottom: 5px;
+}
+
+/* room105-instacheck.php */
+#user_box2 {
+    width: 80%;
+    left: 10%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-right: 5%;
+    height: auto;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom:50px;
+}
+#user_insta {
+    float: left;
+    width: 30%;
+}
+.insta_self {
+    width: 80%;
+}
+
+/* room105-access.php */
+#area_time {
+    font-size: 38px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+}
+
+/*  room105-exhibitior-detail.php */
+#back_detail{
+    width: 100%;
+    height: 105vh;
+    position: fixed;
+    top: 0;
+    z-index: 0;
+    opacity: 0.3;
+}
+.exhibitior_pic {
+    width: 50%;
+    left: 5%;
+    position: relative;
+    transition: .5s;
+    margin-top: 50px;
+    border-radius: 16px;
+    opacity: 0;
+}
+#exhibitor_theme_d {
+    font-size: 32px;
+}
+#exhibitor_theme_r {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    line-height: 2;
+    font-size: 13px;
+}
+#insta_pic{
+    clear: both;
+}
+#insta_pic #status_right{
+    position: relative;
+    top: 100px;
+}
+#color_p {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 2%;
+    position: relative;
+}
+.other_user {
+    position: relative;
+    width: 50%;
+    float: left;
+    margin-top: 15px;
+}
+#other_roma {
+    float: left;
+    position: relative;
+    left: 5%;
+    font-size: 20px;
+    top: 4px;
+    letter-spacing: 2px;
+}
+#other_ja {
+    position: relative;
+    font-size: 12px;
+    letter-spacing: 2px;
+    top: 8px;
+    float: left;
+    left: 20%;
+}
+
+/* room105-summary.php */
+#summary_1{
+    border-left: 5px solid;
+    padding-left: 3%;
+    margin-top: 40px;
+    position: relative;
+    padding-bottom: 10px;
+}
+#summary_1 #area_title {
+    font-size: 32px;
+    text-align: left;
+    /* height: 50px; */
+}
+#summary_1 #area_sub {
+    text-align: left;
+    margin-left: 0;
+    margin-top: -20px;
+}
+#summary_sentence {
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+/* room105-sns.php */
+#insta_area{
+    width: 70%;
+    margin-left: 15%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+#insta_img_wrap {
+  display: block;
+  position: relative;
+  width: 30%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 2vh;
+}
+
+#insta_img_wrap::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.insta_imgs {
+   position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.sns_pic {
+    width: 5%;
+    float: left;
+    text-align: center;
+    left: 35%;
+    position: relative;
+    margin-top: -5px;
+}
+#sns_id{
+    font-size: 20px;
+    border-bottom: 3px solid #880088;
+    padding-bottom: 10px;
+}
+
+#insta_detail {
+    position: fixed;
+    z-index: 5;
+    top: 20vh;
+    width: 80%;
+    background: #333;
+    padding-top: 5vh;
+    display: none;
+    opacity: 0;
+}
+#insta_detail_back {
+    width: 100%;
+    height: 110vh;
+    position: fixed;
+    background: #333a;
+    top: 0;
+    left: 0;
+}
+#insta_left {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 60vh;
+}
+.insta_img_detail {
+    left: 5%;
+    position: relative; 
+}
+#insta_caption {
+    margin-top: 0px;
+    text-align: left;
+    line-height: 1.5;
+    height: 40vh;
+    overflow-y: scroll;
+}
+#insta_right {
+    position: fixed;
+    left: 55%;
+    width: 30%;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+#insta_page {
+    margin-top: 30px;
+    position: relative;
+    font-size: 16px;
+    padding: 5px;
+    border: 2px solid;
+}
+
+/* digital gallery */
+#insta_namebar{
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 4px;
+    border-bottom: 2px solid;
+    margin-bottom: 5vh;
+}
+#insta_area2{
+        width: 80%;
+    margin-left: 10%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+#insta_img_wrap2 {
+    display: block;
+    position: relative;
+    width: 22%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 2vh;
+}
+#insta_img_wrap2::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+#button_1 {
+    position: relative;
+    background: #333;
+    letter-spacing: 2px;
+}
+#button_1a {
+    position: relative;
+    width: 25%;
+    padding: 10px;
+    background: #333;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+}
+
+div#timetable_date {
+    width: 11.11%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+#timetable_row {
+    position: relative;
+    clear: both;
+    overflow: hidden;
+    background: #aaa8;
+    margin-bottom: 20px;
+}
+.summary-pc {
+    width: 90%;
+    /* left: 5%; */
+    position: relative;
+    background: #ddda;
+    margin-top: 70px;
+}
+.summary-mobile{
+    display: none;
+}
+#workfloor {
+    font-size: 24px;
+    text-align: left;
+    border-bottom: 1px solid;
+}
+#e_camera2 {
+    padding-left: 3%;
+    border-left: 2px solid;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 45%;
+    float: left;
+}
+.exhibitior_area2 {
+    text-align: left;
+    /* margin-top: 30px; */
+    padding-left: 3%;
+    letter-spacing: 3px;
+    font-size: 14px;
+    overflow: hidden;
+    transition: .5s;
+    border-left: 10px solid;
+    /* margin-bottom: 90px; */
+}
+.exhibitior_area2 #exhibitior_roma {
+    font-size: 26px;
+    letter-spacing: 6px;
+}
+#snstag {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    clear: both;
+    height: 100px;
+    padding-top: 40px;
+    letter-spacing: 3px;
+    /* border: 2px solid; */
+}
+.snstag_left {
+    width: 15%;
+    float: left;
+}
+#snstag_right {
+    position: relative;
+    top: 20px;
+    /* float: left; */
+    /* left: 20%; */
+}
+#goin{
+    width: 20%;
+    float: left;
+    margin-left: 15%;
+}
+#theater_movie{
+    width: 100%;
+}
+
+/*Memoria gallery*/
+#memoriapic_wrap{
+    width: 100%;
+    clear: both;
+    margin-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+}
+.memoria_photo{
+    width: 40%;
+    float: left;
+}
+#theater_movie2{
+    width: 40%;
+    float: left;
+}
+#memoria_title{
+    font-size: 27px;
+    float: left;
+    letter-spacing: 3px;
+    left: 5%;
+    position: relative;
+    width: 50%;
+    border-bottom: 2px solid;
+}
+#exhibitior_theme2{
+    font-size: 14px;
+    float: left;
+    letter-spacing: 3px;
+    left: 5%;
+    position: relative;
+    width: 50%;
+}
+
+/* Memoria-detail */
+#gallery_detail {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    opacity: 0;
+}
+#detail_left {
+    position: relative;
+    width: 100%;
+    /* float: left; */
+}
+#gallery_back {
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 2px;
+    left: 5%;
+    top: 5vh;
+}
+.detail_pic {
+    width: 50%;
+    left: 25%;
+    position: relative;
+    margin-top: 10vh;
+}
+#detail_right {
+    width: 80%;
+    position: absolute;
+    margin-left: 5%;
+    top: 85vh;
+}
+#detail_title {
+    position: relative;
+    margin-top: 0vh;
+    font-size: 26px;
+    /* border-bottom: 1px solid; */
+    width: 100%;
+    letter-spacing: 2px;
+}
+#detail_name {
+    letter-spacing: 1px;
+}
+#detail_caption {
+    letter-spacing: 2px;
+    margin-top: 60px;
+}
+.deneba {
+    width: 10%;
+    position: absolute;
+    margin-top: 30vh;
+    text-align: center;
+}
+#detail_back {
+    left: 5%;
+}
+#detail_next {
+    left: 85%;
+}
+.detail_pic2 {
+    width: 70%;
+    position: relative;
+    margin-top: 3vh;
+}

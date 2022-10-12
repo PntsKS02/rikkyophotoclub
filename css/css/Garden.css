@@ -1,0 +1,273 @@
+html,body{
+    margin: 0px;
+    font-family: 'ltc-caslon-pro','dnp-shuei-mincho-pr6n';
+    position: relative;
+    color: #222;
+    background: #eee;
+    font-weight: 400;
+}
+/* ALL(footer) */
+
+div#footer {
+    position: relative;
+    background: #333;
+    top: 160px;
+    color: #eee;
+    clear: both;
+    height: 370px; 
+}
+div#footer_title {
+    font-weight: 700;
+    font-size: 26px;
+    letter-spacing: 2px;
+    top: 30px;
+    position: relative;
+    left: 5%;
+    width: 40%;
+}
+div#footer_contents {
+    position: relative;
+    clear: both;
+    height: 70px;
+}
+div#fc_title {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    float: left;
+    position: relative;
+    left: 5%;
+    top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 10%;
+    border-right: 2px solid;
+}
+ul.menu_footer {
+    list-style: none;
+    width: 80%;
+    left: 5%;
+    position: relative;
+    top: 52px;
+    letter-spacing: 2px;
+}
+.footer_a{
+    float: left;
+    position: relative;
+    width: 14%;
+    text-align: center; 
+    color: #eee;
+    text-decoration: none;
+}
+
+
+.map {
+    color: #eee;
+    text-decoration: none;
+    float: left;
+    width: 80%;
+}
+div#fc_sentence {
+    left: 10%;
+    position: relative;
+    top: 40px;
+    font-size: 14px;
+}
+
+#footer .sns_pic{
+    width: 5%;
+    float: left;
+    position: relative;
+    left: 5%;
+    top: 50px;
+    margin-right: 5%;
+} 
+div#footer_c {
+    clear: both;
+    margin-top: 80px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    left: 45%;
+    text-align: right;
+    position: relative;
+    width: 50%;
+}
+.menu_icon{
+    position: fixed;
+    left: 91%;
+    width: 7%;
+    top: 5vh;
+    z-index: 4;
+     cursor: pointer;
+}
+/* ALL(Menu)*/
+
+/* ALL(menu) */
+
+#menuzone {
+    position: fixed;
+    top: 0;
+    margin-left: 100%;
+    width: 100%;
+    height: 105vh;
+    background: #111c;
+    z-index: 5;
+    display: none;
+    color: #eeef;
+    opacity: 0;
+}
+
+#menu_title {
+    margin-top: 10vh;
+    left: 10%;
+    position: relative;
+    font-size: 38px;
+    letter-spacing: 8px;
+}
+
+#menu_list {
+    position: relative;
+    width: 33%;
+    margin-right: 5%;
+    left: 10%;
+    float: left;
+    top: 10vh;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    border-left: 2px solid;
+    padding-left: 2%;
+    transition: .5s;
+}
+#menu_list:hover{
+    background: #eeea;
+    color: #333;
+}
+#list_roma {
+    font-size: 32px;
+    letter-spacing: 5px;
+}
+#list_ja {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.menu_icon_close{
+    position: fixed;
+    left: 91%;
+    width: 7%;
+    top: 5vh;
+    z-index: 7;
+    cursor: pointer;
+}
+
+/* Garden.php */
+#top_title_MB{
+    display:none;
+}
+#top_title_PC{
+    height: 110vh;
+}
+    .top_pic_PC {
+    position: absolute;
+    height: 90vh;
+    margin-top: 5vh;
+    left: 5%;
+}
+#ex_name {
+    position: absolute;
+    top: 8vh;
+    left: 7%;
+    color: #eee;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+#title_area {
+    font-size: 16px;
+    letter-spacing: 2px;
+    position: absolute;
+    left: 75%;
+    margin-top: 75vh;
+}
+#title {
+    font-size: 62px;
+}
+#area_1{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    letter-spacing:2px;
+    margin-bottom: 70px;
+}
+#area_title{
+    margin-bottom: 30px;
+    border-top: 1px solid;
+    font-size: 26px;
+}
+#area_sentence{
+    font-size: 14px;
+}
+#area_sentence2 {
+    margin-top: 80px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    line-height: 2.5;
+    float: left;
+    width: 50%;
+} 
+#place{
+    font-size: 24px; 
+}
+#history_box {
+    text-align: left;
+    margin-top: 30px;
+    height: 40px;
+    border-left: 1px solid;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding-left: 5%;
+    width: 90%;
+    position: relative;
+    left: 5%;
+    transition: .5s;
+    cursor: pointer;
+}
+#history_box:hover {
+    background: #0008;
+}
+#history_date {
+    width: 15%;
+    float: left;
+    margin-top: 10px;
+}
+#history_title {
+    position: relative;
+    float: left;
+    font-size: 24px;
+    width: 50%;
+    letter-spacing: 3px;
+}
+#history_watch {
+    position: relative;
+    margin-top: 10px;
+    float: left;
+    width: 35%;
+    text-align: center;
+}
+#exhibitior_box {
+    margin-top: 30px;
+    width: 50%;
+    position: relative;
+    float: left;
+    height: 70px;
+    letter-spacing: 2px;
+}
+#name_roma {
+    font-size: 26px;
+    letter-spacing: 4px;
+}
+#name_ja {
+    font-size: 14px;
+}
+iframe{
+    width:50%;
+}

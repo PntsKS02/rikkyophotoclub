@@ -1,0 +1,50 @@
+
+html,body{
+	position: relative;
+	margin: 0;
+}
+#captiongroup {
+    position: relative;
+    width: 49.5%;
+	height: 180px;
+	float: left;
+    left: 0px;
+    font-family: "aileron Light","源暎ゴシックP Light";
+    border: 2px solid black;
+}
+
+#caption {
+    font-size: 38px;
+    letter-spacing: 4px;
+    position: relative;
+	white-space: nowrap;
+    top: 30px;
+    width: 70%;
+    text-align: center;
+    border-bottom: 2px solid #222222;
+}
+
+#faculty, #year, #name {
+    font-size: 22px;
+    top: 45px;
+    letter-spacing: 2px;
+    padding-left: 12px;
+    float: left;
+    position: relative;
+}
+#sentence{
+	font-size: 16px;
+	top: 45px;
+	letter-spacing: 2px;
+	clear: both;
+	float: left;
+    padding-left: 12px;
+ position: relative;
+}
+#qcdemo2 {
+    position: relative;
+    top: -35px;
+    left: 130px;
+}
+
+
